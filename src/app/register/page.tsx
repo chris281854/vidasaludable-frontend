@@ -38,7 +38,7 @@ const RegisterPage = () => {
     }
 
     const responseNextAuth = await signIn("credentials", {
-      email,
+      name,
       password,
       redirect: false,
     });
